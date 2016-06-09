@@ -127,7 +127,7 @@
   			if (window.location.pathname==="/shop/arclight-table-tennis") {
   			
     				var CC='<div id="color_cont">';
-  					CC+='<div id="colorDesc">Bamboo</div>&nbsp;'
+  					CC+='<div id="colorDesc">Bamboo</div>&nbsp;';
       				CC+='<a id="clr-1" href="javascript:csfc(1);"><img style="border:1px solid #ffffff;" src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d295f9f726665ee370a3e/1464674657047/bamboo.jpg"></a>';
       				CC+='<a id="clr-2" href="javascript:csfc(2);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d29939f726665ee370b30/1464674709642/cocobolo.jpg"></a>';
       				CC+='<a id="clr-3" href="javascript:csfc(3);"><img src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d37082fe1312abdefefe9/1464678154126/teak.jpg"></a>';
@@ -142,10 +142,10 @@
 
   			if (window.location.pathname==="/shop/arclight-billiards-table") {  			
       				var CC='<div id="color_cont">';
- -  					CC+='<div id="colorDesc">Bamboo</div>&nbsp;'
- -      				CC+='<a id="clr-1" href="javascript:csfc(1);"><img style="border:1px solid #ffffff;" src="https://static1.squarespace.com/static/56f55724d210b839ae597438/56f5875cb2d7c7a56b46b6df/574dc4ce4c2f85515b9f757f/1464714451823/crop-arclight-billiards-feature.jpg"></a>';
- +  					CC+='<div id="colorDesc">Bamboo</div>&nbsp;'
- +      				CC+='<a id="clr-1" href="javascript:csfc(6);"><img style="border:1px solid #ffffff;" src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d37082fe1312abdefefe9/1464678154126/teak.jpg"></a>';
+   					CC+='<div id="colorDesc">Bamboo</div>&nbsp;';
+       				CC+='<a id="clr-1" href="javascript:csfc(1);"><img style="border:1px solid #ffffff;" src="https://static1.squarespace.com/static/56f55724d210b839ae597438/56f5875cb2d7c7a56b46b6df/574dc4ce4c2f85515b9f757f/1464714451823/crop-arclight-billiards-feature.jpg"></a>';
+   					CC+='<div id="colorDesc">Bamboo</div>&nbsp;'
+       				CC+='<a id="clr-1" href="javascript:csfc(6);"><img style="border:1px solid #ffffff;" src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d37082fe1312abdefefe9/1464678154126/teak.jpg"></a>';
         				CC+='</div>';			
     			  	var lmButton=CC+'<div class="sqs-block-button"><div class="sqs-block-button-container--center">';
     			}
