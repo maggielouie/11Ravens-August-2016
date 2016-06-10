@@ -144,9 +144,8 @@
   			if (window.location.pathname==="/shop/arclight-billiards-table") {  			
       				var CC='<div id="color_cont">';
    					CC+='<div id="colorDesc">Bamboo</div>&nbsp;';
-       				CC+='<a id="clr-1" href="javascript:csfc(7);"><img style="border:1px solid #ffffff;" src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d295f9f726665ee370a3e/1464674657047/bamboo.jpg"></a>';
-   					CC+='<div id="colorDesc">Bamboo</div>&nbsp;'
-       				CC+='<a id="clr-1" href="javascript:csfc(6);"><img style="border:1px solid #ffffff;" src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d37082fe1312abdefefe9/1464678154126/teak.jpg"></a>';
+       				CC+='<a id="clr-1" href="javascript:csfc(6);"><img style="border:1px solid #ffffff;" src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d295f9f726665ee370a3e/1464674657047/bamboo.jpg"></a>';
+       				CC+='<a id="clr-1" href="javascript:csfc(7);"><img style="border:1px solid #ffffff;" src="https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574d37082fe1312abdefefe9/1464678154126/teak.jpg"></a>';
         				CC+='</div>';			
     			  	var lmButton=CC+'<div class="sqs-block-button"><div class="sqs-block-button-container--center">';
     			}
