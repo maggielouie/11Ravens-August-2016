@@ -24,7 +24,7 @@
 
       {.excerpt?}
         <div class="product-excerpt">  <script>
-        	alert('section being worked on'); 
+        	//alert('section being worked on'); 
         </script>
           {excerpt}
         </div>
