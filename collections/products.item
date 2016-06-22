@@ -43,34 +43,7 @@
 
   </div>
   <script>
-  	function csfc(x){
-  	
-  		//alert(x+":"+window.location.pathname);
-  		
-		//**********************	EDIT COLOR CHOICE IMAGES BELOW HERE ml****************************/
-		  		
-  		var colorChoice=["","https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc18fc6fc084093c6b38f/1464713617839/arclight-bamboo-iHERO.jpg",
-  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc1912eeb8106009ffab7/1464713618734/Arclight-cocobolo-HERO-1.jpg",
-  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc18f2eeb8106009ffa8f/1464713617797/arclight-teak-HERO+copy.jpg",
-  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc1902eeb8106009ffab1/1464713617925/arclight-navy-HERO+copy.jpg",
-  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/574dc190c6fc084093c6b394/1464713618170/arclight-padauk-HERO.jpg",
-  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/57586ddcb6aa606cce44e939/1465413168304/crop-arclight-billiards-feature.jpg",
-  		"https://static1.squarespace.com/static/56f55724d210b839ae597438/574d2942c2ea517f70717850/57586ddbe321408a3387eff7/1465413087606/crop-arclight-billiards-teak.jpg"];
 
-		//**********************	EDIT COLOR CHOICE IMAGES ABOVE HERE ****************************/
-		//**********************	EDIT COLOR CHOICE NAMES BELOW HERE ****************************/  		
-
-  		var colorName=["","Bamboo","Cocobolo","Teak","Navy","Padauk","Bamboo","Teak"];
-  		
- 		//**********************	EDIT COLOR CHOICE NAMES & IMAGES ABOVE HERE ****************************/
-
-  		$("#productSlideshow img").attr('src',colorChoice[x]);  		
-  		$("#color_cont img").css({'border':'none'});
-  		$("#clr-"+x+" img").css({"border":"1px solid #ffffff"});
-  		$("#colorDesc").text(colorName[x]);
-  		
-
-  	}
   	
   	  
   jQuery(document).ready(function($){
