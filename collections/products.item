@@ -23,8 +23,30 @@
 		<div id="pCtr">
 
       {.excerpt?}
-        <div class="product-excerpt">
+        <div class="product-excerpt">  <script>
+        	//alert('section being worked on'); 
+        </script>
+          {excerpt}
+        </div>
+      {.end}
+      	</div>
+      	<div id="pRight">
+ 			{@|product-price}
+      		{@|product-checkout}
+      	</div>
 
+    </div>
+
+    <!-- This displays any text/blocks added to the Additional Info tab -->
+    {.section body}
+    <div class="product-description">
+      {@}
+    </div>
+
+  </div>
+
+  {.end}
+ 
   <script>
   	function csfc(x){
   	
@@ -150,29 +172,5 @@
    		  		    		 	  			
   });
   
-  </script>
-
-
-
-
-        
-          {excerpt}
-        </div>
-      {.end}
-      	</div>
-      	<div id="pRight">
- 			{@|product-price}
-      		{@|product-checkout}
-      	</div>
-
-    </div>
-
-    <!-- This displays any text/blocks added to the Additional Info tab -->
-    {.section body}
-    <div class="product-description">
-      {@}
-    </div>
-
-  </div>
-  {.end}
+  </script>  
 {.end}
