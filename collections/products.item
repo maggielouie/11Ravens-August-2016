@@ -20,7 +20,7 @@
       		<h1 class="product-title">{title}</h1>
 
       	</div>
-		<div id="pCtr">
+		<div id="pCtr" class="dmc">
 
       {.excerpt?}
         <div class="product-excerpt">
