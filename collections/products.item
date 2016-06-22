@@ -23,7 +23,7 @@
 		<div id="pCtr">
 
       {.excerpt?}
-        <div class="product-excerpt">  <script>alert('section being worked on'); </script>
+        <div class="product-excerpt">  <script>//alert('section being worked on'); </script>
           {excerpt}
         </div>
       {.end}
