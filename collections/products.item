@@ -76,7 +76,7 @@
   	
   	  
   jQuery(document).ready(function($){
-    //	alert('script loaded');
+    	alert('script loaded');
   	var viewportWidth = jQuery(window).width();
  
  
