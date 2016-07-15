@@ -160,7 +160,7 @@
 
 			/************************** EDIT ABOVE HERE FOR PRODUCT COLOR *********************************/
 
-				lmButton+='<a href="/contact" class="sqs-block-button-element--small sqs-block-button-element">Learn More</a>';
+				lmButton+='<a href="/contact" class="sqs-block-button-element--small sqs-block-button-element">Request Details</a>';
 				lmButton+='</div></div>';
   			
   			$("#pRight").html(lmButton);
