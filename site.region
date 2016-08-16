@@ -4,6 +4,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1">
 
+    <script type="text/javascript">
+	    adroll_adv_id = "LGLKB5RGRRCIBEP3T3H644";
+	    adroll_pix_id = "NB7VMCLMNBAKBN5POJWMML";
+	    /* OPTIONAL: provide email to improve user identification */
+	    /* adroll_email = "username@example.com"; */
+	    (function () {
+	        var _onload = function(){
+	            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+	            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+	            var scr = document.createElement("script");
+	            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+	            scr.setAttribute('async', 'true');
+	            scr.type = "text/javascript";
+	            scr.src = host + "/j/roundtrip.js";
+	            ((document.getElementsByTagName('head') || [null])[0] ||
+	                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+	        };
+	        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+	        else {window.attachEvent('onload', _onload)}
+	    }());
+	</script>
+
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}{.if website.logoImageUrl} has-logo-image{.or} has-site-title{.end}{.if website.siteTagLine} has-tagline{.end}{.if showCart} has-cart{.end}{.if item}{.or}{.equal? collection.typeName "index"}{.section collection}{.repeated section collections}{.if mainImage} has-parallax-images{.end}{.end}{.end}{.or}{.if collection.mainImage} has-parallax-images{.end}{.end}{.end} enable-load-effects" sqs-controller="Template.Controllers.NavigationState">
